@@ -1,4 +1,4 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -18,3 +18,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/*Header*/
+
+.header {
+  background-color: #0d6efd;
+}
+
+.header__title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
