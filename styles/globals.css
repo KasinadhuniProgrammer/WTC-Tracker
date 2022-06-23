@@ -22,12 +22,45 @@ a {
 /*Header*/
 
 .header {
-  background-color: #0d6efd;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
 }
 
-.header__title {
+.header__title, .header__anchor1, .header__anchor2, .header__anchor3, .header__anchor4 {
+  display: inline-block;
+}
+
+.header__anchor1 {
+  margin-left: 550px;
+}
+
+.header__anchor2, .header__anchor3, .header__anchor4 {
+  margin-left: 80px;
+}
+
+.header__anchor1 > a, .header__anchor2 > a, .header__anchor3 > a, .header__anchor4 > a {
+  color: #1e4398;
+  cursor: pointer; 
+}
+
+.header__anchor1 > a:hover, .header__anchor2 > a:hover, .header__anchor3 > a:hover, .header__anchor4 > a:hover {
+  color: #001036;
+  transition-duration: 0.5s; 
+}
+
+.header__title > h3 {
   font-family: 'Montserrat', sans-serif;
+  padding: 10px 10px;
+  font-size: 30px;
+  cursor: pointer; 
 }
 
+.header__title > h3:hover {
+  color:rgb(185, 185, 185);
+  transition-duration: 0.5s;
+}
 
 
